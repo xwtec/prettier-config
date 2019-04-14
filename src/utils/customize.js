@@ -1,13 +1,13 @@
-import defaultConfig from '../default-config'
+import defaultConfig from '../default-config';
 
 function customize(options = {}) {
-  const {overrides = []} = options
+  const {overrides = []} = options;
 
   return {
     ...defaultConfig,
     ...options,
     overrides: [...defaultConfig.overrides, ...overrides],
-  }
+  };
 }
 
-export default customize
+export default customize;

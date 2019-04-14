@@ -1,4 +1,4 @@
-import languageToOverride from './language-to-override'
+import languageToOverride from './language-to-override';
 
 function toOverrides(languages) {
   return Object.keys(languages).map(language =>
@@ -7,7 +7,7 @@ function toOverrides(languages) {
       parser: language,
       ...languages[language],
     })
-  )
+  );
 }
 
-export default toOverrides
+export default toOverrides;

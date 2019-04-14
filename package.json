@@ -47,7 +47,9 @@
     "clean": "rimraf lib",
     "lint": "eslint src/**/*.js --fix",
     "dist": "np --yolo --no-yarn",
-    "release": "run-s clean lint test build dist"
+    "release": "run-s clean lint test build dist",
+    "prettier": "prettier **/*.{js,md} --write"
   },
-  "files": ["lib"]
+  "files": ["lib"],
+  "prettier": "./lib"
 }

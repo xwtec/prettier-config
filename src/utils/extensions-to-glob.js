@@ -1,11 +1,11 @@
-import extensionsToArray from './extensions-to-array'
+import extensionsToArray from './extensions-to-array';
 
 function toGlob(extensions) {
-  extensions = extensionsToArray(extensions)
+  extensions = extensionsToArray(extensions);
 
   return extensions.length > 1
     ? `*.{${extensions.join(',')}}`
-    : `*.${extensions}`
+    : `*.${extensions}`;
 }
 
-export default toGlob
+export default toGlob;

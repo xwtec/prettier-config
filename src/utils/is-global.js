@@ -1,9 +1,9 @@
-import global from '../global'
+import global from '../global';
 
 function isGlobal(key, value) {
-  const globalValue = global[key]
+  const globalValue = global[key];
 
-  return globalValue === value
+  return globalValue === value;
 }
 
-export default isGlobal
+export default isGlobal;

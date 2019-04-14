@@ -1,5 +1,5 @@
 function isUndefined(x) {
-  return typeof x === 'undefined'
+  return typeof x === 'undefined';
 }
 
-export default isUndefined
+export default isUndefined;

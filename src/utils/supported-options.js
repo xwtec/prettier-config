@@ -20,6 +20,6 @@ const SUPPORTED_OPTIONS = [
   'proseWrap',
   'htmlWhitespaceSensitivity',
   'endOfLine',
-]
+];
 
-export default SUPPORTED_OPTIONS
+export default SUPPORTED_OPTIONS;

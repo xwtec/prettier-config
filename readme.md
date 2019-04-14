@@ -11,7 +11,7 @@ yarn add @xwtec/prettier-config --dev
 ## Usage
 
 ```js
-module.exports = require('@xwtec/prettier-config')
+module.exports = require('@xwtec/prettier-config');
 ```
 
 ## Customize
@@ -27,7 +27,7 @@ module.exports = require('@xwtec/prettier-config').customize({
       },
     },
   ],
-})
+});
 ```
 
 ## Options
