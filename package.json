@@ -1,7 +1,7 @@
 {
   "name": "@xwtec/prettier-config",
   "description": "Prettier Configuration for xwtec projects",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "repository": "xwtec/prettier-config",
   "author": "xwtec",
