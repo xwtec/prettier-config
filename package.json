@@ -1,5 +1,5 @@
 {
-  "name": "@xwtec/config-fisker",
+  "name": "@xwtec/prettier-config",
   "description": "Prettier Configuration for xwtec projects",
   "version": "0.0.0",
   "main": "lib/index.js",
