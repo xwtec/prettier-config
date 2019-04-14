@@ -496,6 +496,11 @@
   dependencies:
     eslint-plugin-prettier "^3.0.1"
 
+"@xwtec/prettier-config@^0.0.1":
+  version "0.0.1"
+  resolved "http://registry.npm.taobao.org/@xwtec/prettier-config/download/@xwtec/prettier-config-0.0.1.tgz?cache=0&other_urls=http%3A%2F%2Fregistry.npm.taobao.org%2F%40xwtec%2Fprettier-config%2Fdownload%2F%40xwtec%2Fprettier-config-0.0.1.tgz#8066198df5cdd556c969d3a1d08380f1fd090af7"
+  integrity sha1-gGYZjfXN1VbJadOh0IOA8f0JCvc=
+
 JSONStream@^1.0.4:
   version "1.3.5"
   resolved "http://registry.npm.taobao.org/JSONStream/download/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
