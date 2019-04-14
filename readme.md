@@ -1,23 +1,23 @@
-# prettier-config-fisker
+# @xwtec/prettier-config
 
-> fisker's Shareable prettier Configuration
+> Prettier Configuration for xwtec projects
 
 ## Install
 
 ```sh
-yarn add prettier-config-fisker --dev
+yarn add @xwtec/prettier-config --dev
 ```
 
 ## Usage
 
 ```js
-module.exports = require('prettier-config-fisker')
+module.exports = require('@xwtec/prettier-config')
 ```
 
 ## Customize
 
 ```js
-module.exports = require('prettier-config-fisker').customize({
+module.exports = require('@xwtec/prettier-config').customize({
   semi: false,
   overrides: [
     {
@@ -32,17 +32,19 @@ module.exports = require('prettier-config-fisker').customize({
 
 ## Options
 
+<!-- options start -->
+
 <!-- AUTO GENERATED CONTENT, DON'T EDIT -->
 
 ### Global
 
-| Option | value | Description |
-| :-- | :-- | :-- |
-| bracketSpacing | false | Print spaces between brackets. |
-| htmlWhitespaceSensitivity | ignore | How to handle whitespaces in HTML. |
-| semi | false | Print semicolons. |
-| singleQuote | true | Use single quotes instead of double quotes. |
-| trailingComma | es5 | Print trailing commas wherever possible when multi-line. |
+| Option                    | value  | Description                                              |
+| :------------------------ | :----- | :------------------------------------------------------- |
+| bracketSpacing            | false  | Print spaces between brackets.                           |
+| htmlWhitespaceSensitivity | ignore | How to handle whitespaces in HTML.                       |
+| semi                      | true   | Print semicolons.                                        |
+| singleQuote               | true   | Use single quotes instead of double quotes.              |
+| trailingComma             | es5    | Print trailing commas wherever possible when multi-line. |
 
 ### \*.css
 
@@ -92,10 +94,9 @@ module.exports = require('prettier-config-fisker').customize({
 
 ### \*.{md,markdown}
 
-| Option    | value    | Description          |
-| :-------- | :------- | :------------------- |
-| parser    | markdown | Which parser to use. |
-| proseWrap | never    | How to wrap prose.   |
+| Option | value    | Description          |
+| :----- | :------- | :------------------- |
+| parser | markdown | Which parser to use. |
 
 ### \*.mdx
 
@@ -129,6 +130,8 @@ module.exports = require('prettier-config-fisker').customize({
 | parser      | yaml  | Which parser to use.                        |
 | singleQuote | false | Use single quotes instead of double quotes. |
 
+<!-- options end -->
+
 ## License
 
-MIT © [fisker Cheung](https://www.fiskercheung.com/)
+MIT © [xwtec](https://github.com/xwtec)

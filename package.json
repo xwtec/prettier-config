@@ -1,14 +1,10 @@
 {
-  "name": "prettier-config-fisker",
-  "description": "fisker's Shareable prettier Configuration",
+  "name": "@xwtec/config-fisker",
+  "description": "Prettier Configuration for xwtec projects",
   "version": "0.0.0",
   "main": "lib/index.js",
-  "repository": "fisker/prettier-config-fisker",
-  "author": {
-    "name": "fisker Cheung",
-    "email": "lionkay@gmail.com",
-    "url": "https://www.fiskercheung.com/"
-  },
+  "repository": "xwtec/prettier-config",
+  "author": "xwtec",
   "license": "MIT",
   "config": {
     "commitizen": {
