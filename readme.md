@@ -21,7 +21,7 @@ module.exports = require('@xwtec/prettier-config').customize({
   semi: false,
   overrides: [
     {
-      file: '*.flow.js',
+      files: '*.flow.js',
       options: {
         parser: 'flow',
       },
