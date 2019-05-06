@@ -19,9 +19,10 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
-    "@commitlint/config-conventional": "^7.5.0",
-    "@xwtec/eslint-config": "^5.0.3",
-    "@xwtec/prettier-config": "^1.0.0",
+    "@fisker/commitlint-config": "^1.0.5",
+    "@fisker/lint-staged-config": "^1.0.4",
+    "@xwtec/eslint-config": "^5.0.4",
+    "@xwtec/prettier-config": "^1.0.2",
     "ava": "^1.4.1",
     "cz-conventional-changelog-emoji": "^0.1.0",
     "eslint": "^5.16.0",
@@ -53,6 +54,8 @@
     "release": "run-s clean lint build test prettier dist",
     "prettier": "prettier **/*.{js,md} --write"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "prettier": "@xwtec/prettier-config"
 }

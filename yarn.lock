@@ -463,6 +463,18 @@
   dependencies:
     arrify "^1.0.1"
 
+"@fisker/commitlint-config@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npm.taobao.org/@fisker/commitlint-config/download/@fisker/commitlint-config-1.0.5.tgz#656f9588db3075ff00d07f472774ce56abbb9d56"
+  integrity sha1-ZW+ViNswdf8A0H9HJ3TOVqu7nVY=
+  dependencies:
+    "@commitlint/config-conventional" "^7.5.0"
+
+"@fisker/lint-staged-config@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/@fisker/lint-staged-config/download/@fisker/lint-staged-config-1.0.4.tgz#08206dd7ce02fccce83939fcf21ba2b774b5be36"
+  integrity sha1-CCBt184C/MzoOTn88huit3S1vjY=
+
 "@marionebl/sander@^0.6.0":
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/@marionebl/sander/-/sander-0.6.1.tgz#1958965874f24bc51be48875feb50d642fc41f7b"
@@ -518,17 +530,17 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
   integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==
 
-"@xwtec/eslint-config@^5.0.3":
+"@xwtec/eslint-config@^5.0.4":
   version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@xwtec/eslint-config/-/eslint-config-5.0.4.tgz#59edca51e600dae7fd099f46bb5e658c65ae047b"
-  integrity sha512-BKChGJmi1R5Z3ZeoayqyHoUTygL4HxynHa3tOZL6e345MNZMaDQ5Jj+RrncLWImZqZGzslnGmrcT1+kASDG5dg==
+  resolved "https://registry.npm.taobao.org/@xwtec/eslint-config/download/@xwtec/eslint-config-5.0.4.tgz#59edca51e600dae7fd099f46bb5e658c65ae047b"
+  integrity sha1-We3KUeYA2uf9CZ9Gu15ljGWuBHs=
   dependencies:
     eslint-plugin-prettier "^3.0.1"
 
-"@xwtec/prettier-config@^1.0.0":
+"@xwtec/prettier-config@^1.0.2":
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@xwtec/prettier-config/-/prettier-config-1.0.2.tgz#25016177c42540094c65b2d4e98e0c2fcb670d7e"
-  integrity sha512-kSCvfkH6dXLmQoSbNZfjQiCwF9nbtAd2UZSL0/0KMuhZfxKLL0U1Y7IzV169QTNdYGTEavDBAFzXRI+VEQjhbQ==
+  resolved "https://registry.npm.taobao.org/@xwtec/prettier-config/download/@xwtec/prettier-config-1.0.2.tgz#25016177c42540094c65b2d4e98e0c2fcb670d7e"
+  integrity sha1-JQFhd8QlQAlMZbLU6Y4ML8tnDX4=
 
 JSONStream@^1.0.4:
   version "1.3.5"
