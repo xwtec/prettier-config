@@ -21,7 +21,7 @@
     "@commitlint/cli": "^8.0.0",
     "@fisker/commitlint-config": "^1.0.9",
     "@fisker/lint-staged-config": "^1.0.4",
-    "@xwtec/eslint-config": "^6.0.8",
+    "@xwtec/eslint-config": "^6.0.9",
     "@xwtec/prettier-config": "^1.0.2",
     "ava": "^2.1.0",
     "cz-conventional-changelog-emoji": "^0.1.0",
