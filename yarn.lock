@@ -402,10 +402,10 @@
   dependencies:
     arrify "^1.0.1"
 
-"@fisker/commitlint-config@^1.0.9":
+"@fisker/commitlint-config@^1.1.0":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@fisker/commitlint-config/-/commitlint-config-1.1.0.tgz#e58fd2a66282f9bef3ba258a8f11442a89b11cd5"
-  integrity sha512-X1A7wde0cbvsFesjfjEJ4sSFtKOZLlGEqnGPDcaEfxzlg1nNMfG5f+iJPCuynDCY8gpRz13quYkHUmR2nCB2TQ==
+  resolved "https://registry.npm.taobao.org/@fisker/commitlint-config/download/@fisker/commitlint-config-1.1.0.tgz#e58fd2a66282f9bef3ba258a8f11442a89b11cd5"
+  integrity sha1-5Y/SpmKC+b7zuiWKjxFEKomxHNU=
   dependencies:
     "@commitlint/config-conventional" "8.0.0"
 
