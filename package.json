@@ -15,7 +15,8 @@
     }
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/cli": "8.1.0",
@@ -48,14 +49,15 @@
     "build:rules": "node -r esm ./scripts/generate-options.js",
     "clean": "rimraf lib",
     "dev": "rollup --config --watch",
-    "dist": "np --yolo --no-yarn",
+    "dist": "run-p dist:*",
+    "dist:npm": "np --yolo --no-yarn",
     "format": "run-p format:*",
     "format:eslint": "yarn lint:eslint --fix",
-    "format:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --write",
+    "format:prettier": "prettier \"**/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml}\" --write",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint **/*.{js,mjs,vue}",
-    "lint:markdown": "markdownlint **/*.md --ignore \"**/node_modules/**\"",
-    "lint:prettier": "prettier **/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml} --check",
+    "lint:eslint": "eslint \"**/*.{js,mjs,vue}\"",
+    "lint:markdown": "markdownlint \"**/*.md\" --ignore \"**/node_modules/**\"",
+    "lint:prettier": "prettier \"**/*.{css,html,js,json,less,md,scss,ts,vue,yaml,yml}\" --check",
     "release": "run-s clean lint build test format dist",
     "test": "run-p test:*",
     "test:js": "ava"
@@ -63,5 +65,6 @@
   "files": [
     "lib"
   ],
-  "prettier": "@xwtec/prettier-config"
+  "prettier": "@xwtec/prettier-config",
+  "sideEffects": false
 }
