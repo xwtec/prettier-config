@@ -41,7 +41,8 @@
     "prettier": "*"
   },
   "ava": {
-    "require": "esm"
+    "require": "esm",
+    "verbose": true
   },
   "scripts": {
     "build": "run-p build:*",
