@@ -4,15 +4,23 @@
 
 ## Install
 
-```sh
-yarn add @xwtec/prettier-config --dev
+```bash
+# with yarn
+yarn add --dev prettier @xwtec/prettier-config
+
+# with npm
+npm install --save-dev prettier @xwtec/prettier-config
 ```
 
-## Usage
+## Configuration
+
+Add following code
 
 ```js
 module.exports = require('@xwtec/prettier-config');
 ```
+
+to `prettier.config.js` in your project.
 
 ## Customize
 
@@ -28,6 +36,12 @@ module.exports = require('@xwtec/prettier-config').customize({
     },
   ],
 });
+```
+
+## Usage
+
+```bash
+npx prettier "**/*.{js,scss,html,vue,css,less,md}"
 ```
 
 ## Options
@@ -131,7 +145,3 @@ module.exports = require('@xwtec/prettier-config').customize({
 | singleQuote | false | Use single quotes instead of double quotes. |
 
 <!-- options end -->
-
-## License
-
-MIT © [xwtec](https://github.com/xwtec)
