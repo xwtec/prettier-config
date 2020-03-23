@@ -6,8 +6,8 @@ const prettierOptions = prettier.getSupportInfo().options;
 const {overrides = []} = options;
 
 function parseOptions(options) {
-  const keys = Object.keys(options).filter(key => key !== 'overrides');
-  return keys.map(key => ({
+  const keys = Object.keys(options).filter((key) => key !== 'overrides');
+  return keys.map((key) => ({
     name: key,
     value: options[key],
   }));
@@ -36,7 +36,7 @@ function flat(array) {
   );
 }
 
-test('options', t => {
+test('options', (t) => {
   const allOptions = flat([
     ...parseOptions(options),
     ...overrides.map(({options}) => parseOptions(options)),

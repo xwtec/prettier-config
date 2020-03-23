@@ -1,49 +1,18 @@
 {
   "name": "@xwtec/prettier-config",
-  "description": "Prettier Configuration for xwtec projects",
   "version": "1.0.3",
-  "main": "lib/index.js",
+  "description": "Prettier Configuration for xwtec projects",
   "repository": "xwtec/prettier-config",
+  "license": "MIT",
   "author": {
     "name": "xwtec",
     "url": "https://github.com/xwtec"
   },
-  "license": "MIT",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@fisker/commitlint-config": "1.1.7",
-    "@fisker/husky-config": "2.0.0",
-    "@fisker/lint-staged-config": "2.0.0",
-    "@xwtec/eslint-config": "6.2.0",
-    "@xwtec/prettier-config": "1.0.3",
-    "ava": "3.5.1",
-    "cz-conventional-changelog": "3.1.0",
-    "eslint": "6.8.0",
-    "esm": "3.2.25",
-    "husky": "4.2.3",
-    "lint-staged": "10.0.8",
-    "markdownlint-cli": "0.22.0",
-    "npm-run-all": "4.1.5",
-    "prettier": "1.19.1",
-    "rimraf": "3.0.2",
-    "rollup": "2.1.0"
-  },
-  "peerDependencies": {
-    "prettier": "*"
-  },
-  "ava": {
-    "require": "esm",
-    "verbose": true
-  },
+  "files": [
+    "lib"
+  ],
+  "sideEffects": false,
+  "main": "lib/index.js",
   "scripts": {
     "build": "run-p build:*",
     "build:js": "rollup --config",
@@ -63,9 +32,40 @@
     "test": "run-p test:*",
     "test:js": "ava"
   },
-  "files": [
-    "lib"
-  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "prettier": "@xwtec/prettier-config",
-  "sideEffects": false
+  "ava": {
+    "require": "esm",
+    "verbose": true
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@fisker/commitlint-config": "1.1.7",
+    "@fisker/husky-config": "2.0.0",
+    "@fisker/lint-staged-config": "2.0.0",
+    "@xwtec/eslint-config": "6.2.0",
+    "@xwtec/prettier-config": "1.0.3",
+    "ava": "3.5.1",
+    "cz-conventional-changelog": "3.1.0",
+    "eslint": "6.8.0",
+    "esm": "3.2.25",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "markdownlint-cli": "0.22.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.1",
+    "rimraf": "3.0.2",
+    "rollup": "2.1.0"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
